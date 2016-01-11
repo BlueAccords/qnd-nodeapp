@@ -1,0 +1,23 @@
+{
+  "name": "qnd-nodeapp",
+  "version": "1.0.0",
+  "description": "Quick and dirty node app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlueAccords/qnd-nodeapp.git"
+  },
+  "keywords": [
+    "node",
+    "javascript"
+  ],
+  "author": "Ryan Tran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BlueAccords/qnd-nodeapp/issues"
+  },
+  "homepage": "https://github.com/BlueAccords/qnd-nodeapp#readme"
+}
