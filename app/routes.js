@@ -22,6 +22,8 @@ var Nerd = require('./models/nerd');
 
 		// frontend routes =====================================
 		app.get('*', function(req, res){
-			res.sendfile('./public_views/index.html');
+			// sendFile fixed. root = directory + .. to go up one level.
+			res.sendFile('./public/views/index.html', 
+				{root: __dirname + '/../'});
 		});
 	};
